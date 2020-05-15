@@ -1,0 +1,34 @@
+.cardBorder {
+    width: calc(2.48 * 127px);
+    height: calc(3.46 * 127px);
+    border: calc(.10 * 127px) solid #FCCD12;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.electric {
+    background: rgb(255,221,51);
+    background: linear-gradient(60deg, rgba(255,221,51,1) 0%, rgba(255,255,255,1) 22%, rgba(255,221,51,1) 51%, rgba(255,255,255,1) 80%, rgba(255,221,51,1) 100%);
+}
+
+.water {
+    background: rgb(51,98,255);
+background: linear-gradient(60deg, rgba(51,98,255,1) 0%, rgba(165,178,224,1) 22%, rgba(17,36,99,1) 51%, rgba(165,178,224,1) 80%, rgba(21,61,195,1) 100%);
+}
+
+.cardTitle {
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+.cardImage
+{
+    width: 90%;
+    margin: 0 auto;
+    height: calc(1.45 * 127px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
